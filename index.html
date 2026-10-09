@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="nl-BE">
- <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,7 +7,19 @@
     <title>HelderBijles | Bijles met structuur en focus</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+ <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+ <body>
     <a class="skip" href="#inhoud">Ga naar de inhoud</a>
     <header class="header">
       <a href="#top" class="brand" aria-label="HelderBijles home">
