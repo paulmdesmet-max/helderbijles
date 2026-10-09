@@ -1,11 +1,31 @@
 {
   "testimonials": [
-    {"quote":"We voelden meteen dat er geluisterd werd. Niet alleen naar de punten, maar ook naar wat ons kind nodig had.","label":"Ouder van een leerling","name":"Anoniem"},
-    {"quote":"De rustige uitleg en duidelijke planning zorgden ervoor dat leren weer haalbaar voelde.","label":"Ouder van een leerling","name":"Anoniem"}
+    {
+      "quote": "We voelden meteen dat er geluisterd werd. Niet alleen naar de punten, maar ook naar wat ons kind nodig had.",
+      "label": "Ouder van een leerling",
+      "name": "Anoniem"
+    },
+    {
+      "quote": "De hulp van HelderBijles maakte het verschil",
+      "label": "Bij het schrijven van een paper inmijn schakeljaar communicatiewetenschappen slaagde ik er niet in het juiste verhaal te brengen. Dankzij de coaching van Paul is het toch gelukt.",
+      "name": "Hanne Vanneste"
+    }
   ],
   "posts": [
-    {"category":"STUDIETIP","title":"Een rustige studieplek maken: drie kleine aanpassingen.","accent":false},
-    {"category":"BOODSCHAP","title":"Wat je mag verwachten van een eerste kennismaking.","accent":false},
-    {"category":"BINNENKORT","title":"Hier delen we tips, nieuws en verhalen uit de werking.","accent":true}
+    {
+      "category": "STUDIETIP",
+      "title": "Een rustige studieplek maken: drie kleine aanpassingen.",
+      "accent": false
+    },
+    {
+      "category": "BOODSCHAP",
+      "title": "Wat je mag verwachten van een eerste kennismaking.",
+      "accent": false
+    },
+    {
+      "category": "BINNENKORT",
+      "title": "Hier delen we tips, nieuws en verhalen uit de werking.",
+      "accent": true
+    }
   ]
 }
