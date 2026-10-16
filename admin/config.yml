@@ -27,4 +27,5 @@ collections:
             fields:
               - {label: "Categorie", name: "category", widget: "string"}
               - {label: "Titel", name: "title", widget: "string"}
+              - {label: "Link bij Lees verder", name: "url", widget: "string", required: false}
               - {label: "Gele kaart", name: "accent", widget: "boolean", default: false, required: false}
