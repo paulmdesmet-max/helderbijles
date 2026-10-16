@@ -30,6 +30,12 @@
       "title": "Hier delen we tips, nieuws en verhalen uit de werking.",
       "accent": true,
       "homepage": true
+    },
+    {
+      "accent": false,
+      "category": "Vierde tip",
+      "title": "Studietips voor Jongeren met autisme",
+      "homepage": false
     }
   ]
 }
