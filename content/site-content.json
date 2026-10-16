@@ -13,13 +13,6 @@
   ],
   "posts": [
     {
-      "category": "STUDIETIP",
-      "title": "Een rustige studieplek maken in 7 stappen.",
-      "url": "https://www.re-mind.be/blog/7-tips-om-de-perfecte-studieplek-te-richten",
-      "accent": false,
-      "homepage": true
-    },
-    {
       "category": "BOODSCHAP",
       "title": "Wat je mag verwachten van een eerste kennismaking.",
       "accent": false,
@@ -36,6 +29,13 @@
       "category": "Vierde tip",
       "title": "Studietips voor Jongeren met autisme",
       "homepage": false
+    },
+    {
+      "category": "STUDIETIP",
+      "title": "Een rustige studieplek maken in 7 stappen.",
+      "url": "https://www.re-mind.be/blog/7-tips-om-de-perfecte-studieplek-te-richten",
+      "accent": false,
+      "homepage": true
     }
   ]
 }
