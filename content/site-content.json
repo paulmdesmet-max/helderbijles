@@ -15,7 +15,6 @@
     {
       "category": "STUDIETIP",
       "title": "Een rustige studieplek maken in 7 stappen.",
-      "url": "https://www.re-mind.be/blog/7-tips-om-de-perfecte-studieplek-te-richten",
       "accent": false
     },
     {
@@ -27,6 +26,11 @@
       "category": "BINNENKORT",
       "title": "Hier delen we tips, nieuws en verhalen uit de werking.",
       "accent": true
+    },
+    {
+      "accent": false,
+      "category": "Vierde tip",
+      "title": "Studietips voor Jongeren met autisme"
     }
   ]
 }
