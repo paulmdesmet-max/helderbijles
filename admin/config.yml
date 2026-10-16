@@ -21,11 +21,14 @@ collections:
               - {label: "Citaat", name: "quote", widget: "text"}
               - {label: "Omschrijving", name: "label", widget: "string"}
               - {label: "Naam", name: "name", widget: "string", required: false}
-          - label: "Blogs"
+          - label: "Nieuws en tips"
             name: "posts"
+            hint: "Alle berichten blijven in het overzicht. Duid maximaal 3 berichten aan voor de homepage. Zonder selectie verschijnen de eerste 3. Nieuwste datum eerst; zonder datum geldt de lijstvolgorde (zet nieuwe berichten bovenaan)."
             widget: "list"
             fields:
               - {label: "Categorie", name: "category", widget: "string"}
               - {label: "Titel", name: "title", widget: "string"}
               - {label: "Link bij Lees verder", name: "url", widget: "string", required: false}
+              - {label: "Tonen op homepage", name: "homepage", widget: "boolean", default: false, required: false, hint: "Selecteer maximaal 3 berichten. Bij meer selecties verschijnen de 3 nieuwste geselecteerde berichten."}
+              - {label: "Publicatiedatum", name: "date", widget: "datetime", date_format: "DD/MM/YYYY", time_format: false, format: "YYYY-MM-DD", required: false}
               - {label: "Gele kaart", name: "accent", widget: "boolean", default: false, required: false}
