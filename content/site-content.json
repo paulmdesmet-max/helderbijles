@@ -16,7 +16,7 @@
       "category": "BOODSCHAP",
       "title": "Wat je mag verwachten van een eerste kennismaking.",
       "accent": false,
-      "homepage": true
+      "homepage": false
     },
     {
       "category": "BINNENKORT",
@@ -28,7 +28,7 @@
       "accent": false,
       "category": "Vierde tip",
       "title": "Studietips voor Jongeren met autisme",
-      "homepage": false
+      "homepage": true
     },
     {
       "category": "STUDIETIP",
